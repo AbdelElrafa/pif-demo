@@ -5,10 +5,10 @@ namespace App\Livewire;
 use Illuminate\Contracts\View\View;
 use Livewire\Component;
 
-class Home extends Component
+class PrivateSectorHub extends Component
 {
     public function render(): View
     {
-        return view('livewire.home');
+        return view('livewire.private-sector-hub');
     }
 }

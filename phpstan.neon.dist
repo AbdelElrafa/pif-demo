@@ -13,6 +13,3 @@ parameters:
 
     # Level 9 is the highest level
     level: max
-
-    ignoreErrors:
-        - '#Call to an undefined method Illuminate\\Testing\\TestResponse::assertSeeLivewire\(\)#'

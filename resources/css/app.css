@@ -4,3 +4,42 @@
 [x-cloak] {
     display: none;
 }
+
+@layer base {
+    @font-face {
+        font-family: "Fund";
+        src:
+            url(/resources/fonts/Fund-Light.woff2) format("woff2"),
+            url(/resources/fonts/Fund-Light.woff) format("woff");
+        font-weight: 300;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: "Fund";
+        src:
+            url(/resources/fonts/Fund-Regular.woff2) format("woff2"),
+            url(/resources/fonts/Fund-Regular.woff) format("woff");
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: "Fund Med";
+        src:
+            url(/resources/fonts/Fund-Medium.woff2) format("woff2"),
+            url(/resources/fonts/Fund-Medium.woff) format("woff");
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: "Fund SemBd";
+        src:
+            url(/resources/fonts/Fund-SemiBold.woff2) format("woff2"),
+            url(/resources/fonts/Fund-SemiBold.woff) format("woff");
+        font-weight: 600;
+        font-style: normal;
+        font-display: swap;
+    }
+}

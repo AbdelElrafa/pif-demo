@@ -1,6 +1,8 @@
 import "./bootstrap";
 
 import.meta.glob(["../images/**"]);
+import.meta.glob(["../icons/**"]);
+import.meta.glob(["../fonts/**"]);
 
 import {
     Livewire,
