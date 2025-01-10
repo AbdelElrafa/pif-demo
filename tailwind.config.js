@@ -27,6 +27,9 @@ export default {
             },
             colors: {
                 black: "#262626",
+                cream: '#FAF6EE',
+                primary: '#005c4d',
+                hover:'#0f2e29',
             },
         },
         fontFamily: {
@@ -35,6 +38,16 @@ export default {
         fontSize: {
             ...defaultTheme.fontSize,
             sm: [defaultTheme.fontSize.sm[0], "1.125rem"],
+            'field-title': ['2.625em', {
+                lineHeight: '54px',
+                letterSpacing: '-0.3px',
+                fontWeight: '400',
+            }],
+            'field-subtitle': ['1.25em', {
+                lineHeight: '30px',
+                letterSpacing: '0.6px',
+                fontWeight: '400',
+            }],
         },
     },
     plugins: [
