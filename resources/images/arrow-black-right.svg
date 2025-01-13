@@ -1,0 +1,20 @@
+<svg
+                            class="hover:text-white"
+                            width="24"
+                            height="12"
+                            viewBox="0 0 24 12"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M23.1314 5.9883L17.5098 0.465332L22.3057 5.9883L17.5098 11.5112L23.1314 5.9883Z"
+                                fill="currentColor"
+                                stroke="currentColor"
+                                stroke-width="1.11482"
+                            />
+                            <path
+                                d="M0.0601807 5.98877L22.6677 5.98877"
+                                stroke="currentColor"
+                                stroke-width="1.11482"
+                            />
+                        </svg>

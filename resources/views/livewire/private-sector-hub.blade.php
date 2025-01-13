@@ -34,8 +34,7 @@
                 </div>
             </div>
         </div>
-        <div
-            class="mb-6 mt-[25px] flex flex-col-reverse overflow-hidden rounded-lg bg-white shadow-sm md:mb-[60px] lg:flex-row">
+        <div class="mb-6 mt-[25px] flex flex-col-reverse overflow-hidden rounded-xl bg-white md:mb-[60px] lg:flex-row">
             <x-half-column-content class="px-[15px] py-[30px] md:px-[25px]">
                 <div class="flex flex-col justify-center p-0 lg:px-[80px] lg:py-[112px]">
                     <h2 class="mb-[15px] text-[26px] font-medium md:text-field-title">Overview</h2>
@@ -66,7 +65,7 @@
             </x-half-column-image>
 
         </div>
-        <div class="mb-6 flex flex-col overflow-hidden rounded-lg bg-white shadow-sm md:mb-[60px] lg:flex-row">
+        <div class="mb-6 flex flex-col overflow-hidden rounded-xl bg-white md:mb-[60px] lg:flex-row">
             <x-half-column-image>
                 <img
                     class="w-full object-cover md:h-full"
@@ -78,7 +77,8 @@
                 <div class="flex flex-col justify-center p-0 lg:px-[80px] lg:py-[112px]">
                     <h2 class="mb-[15px] text-[26px] font-medium md:text-field-title">Private Sector Initiatives
                     </h2>
-                    <h4 class="mb-[15px] text-field-subtitle font-light uppercase">Empowering the private sector to
+                    <h4 class="mb-[15px] text-field-subtitle font-light uppercase md:font-normal">Empowering the private
+                        sector to
                         achieve our nation’s ambition</h4>
                     <p class="mb-[15px] leading-[27px]">The PIF Programs are designed to facilitate the growth of the
                         private sector. PIF launched MUSAHAMA Program to enhance the Local Content contribution of PIF
@@ -91,11 +91,10 @@
             </x-half-column-content>
 
         </div>
-        <div class="mb-6 flex flex-col-reverse overflow-hidden rounded-lg bg-white shadow-sm md:mb-[60px] lg:flex-row">
-            <x-two-third-column-content>
-                <div
-                    class="relative flex flex-col justify-center px-[25px] py-[30px] md:px-[30px] lg:px-[100px] lg:py-[80px]">
-                    <h2 class="mb-[15px] text-[22px] font-medium leading-[26px] md:text-[34px] md:leading-[44px]">
+        <div class="mb-6 flex flex-col-reverse overflow-hidden rounded-xl bg-white md:mb-[50px] lg:flex-row">
+            <x-two-third-column-content class="py-[30px] md:py-20">
+                <div class="relative mb-[50px] flex flex-col justify-center px-[25px] md:mb-[30px] md:px-[100px]">
+                    <h2 class="mb-[15px] text-[22px] font-medium -tracking-[0.6px] md:text-[34px] md:leading-[44px]">
                         Explore Opportunities
                     </h2>
                     <h4 class="mb-[15px] text-[18px] font-medium leading-[26px] md:text-2xl md:leading-[34px]">PIF’s
@@ -103,27 +102,33 @@
                         vast business
                         opportunities for the private sector
                     </h4>
-                    <p class="mb-[15px] leading-[27px]">The Explore Opportunities section provides a platform for
+                    <p class="leading-[27px]">The Explore Opportunities section provides a platform for
                         private sector companies to discover and capitalize on investment opportunities within PIF
                         portfolio companies' value chains. These opportunities span multiple sectors and offer
                         attractive prospects for private sector companies to participate in PIF’s activities in the
                         local economy.</p>
                     <x-stroke-button
-                        class="relative justify-end md:absolute md:bottom-0 md:right-[35px] md:min-h-[88px]"
+                        class="absolute -bottom-14 right-[35px] min-h-[88px] text-2xl md:-bottom-24 2xl:-bottom-[146px]"
                         href="#"
                     >
                         <svg
-                            class="text-2xl hover:text-white"
-                            xmlns="http://www.w3.org/2000/svg"
+                            class="hover:text-white"
                             width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
+                            height="12"
+                            viewBox="0 0 24 12"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
                         >
                             <path
+                                d="M23.1314 5.9883L17.5098 0.465332L22.3057 5.9883L17.5098 11.5112L23.1314 5.9883Z"
                                 fill="currentColor"
-                                fill-rule="evenodd"
-                                d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06"
-                                clip-rule="evenodd"
+                                stroke="currentColor"
+                                stroke-width="1.11482"
+                            />
+                            <path
+                                d="M0.0601807 5.98877L22.6677 5.98877"
+                                stroke="currentColor"
+                                stroke-width="1.11482"
                             />
                         </svg>
                     </x-stroke-button>
@@ -139,7 +144,7 @@
             </x-one-third-column-image>
 
         </div>
-        <div class="mb-6 flex flex-col overflow-hidden rounded-lg bg-white shadow-sm md:mb-[60px] lg:flex-row">
+        <div class="mb-6 flex flex-col overflow-hidden rounded-xl bg-white md:mb-[50px] lg:flex-row">
             <x-one-third-column-image>
                 <img
                     class="h-[400px] w-full object-cover md:h-full"
@@ -147,47 +152,54 @@
                     alt="Join MUSAHAMA Platform to become a supplier to PIF Portfolio Companies"
                 />
             </x-one-third-column-image>
-            <x-two-third-column-content>
-                <div
-                    class="relative flex flex-col justify-center px-[25px] py-[30px] md:px-[30px] lg:px-[100px] lg:py-[80px]">
-                    <h2 class="mb-[15px] text-[22px] font-medium leading-[26px] md:text-[34px] md:leading-[44px]">Become
+            <x-two-third-column-content class="relative py-[30px] md:py-20">
+                <div class="flex flex-col justify-center px-[25px] md:mb-[30px] md:px-[100px]">
+                    <h2 class="mb-[15px] text-[22px] font-medium -tracking-[0.6px] md:text-[34px] md:leading-[44px]">
+                        Become
                         a Supplier
 
                     </h2>
-                    <p class="mb-[15px] leading-[27px]">Join MUSAHAMA Platform and express your interest to become a
+                    <p class="leading-[27px]">Join MUSAHAMA Platform and express your interest to become a
                         supplier to PIF Portfolio Companies across 13 priority sectors.</p>
                     <img
-                        class="max-h-[400px] max-w-[157px] object-cover md:h-[130px]"
+                        class="mb-2 max-h-[400px] max-w-[157px] object-cover md:h-[138px]"
                         src="{{ Vite::image('musahama-removebg-preview.png') }}"
                         alt="musahama-logo"
                     />
                     <x-stroke-button
-                        class="relative justify-end md:absolute md:bottom-0 md:right-[35px]"
+                        class="relative -bottom-0 right-3 justify-end md:absolute md:bottom-[35px] md:right-[35px]"
                         href="#"
                     >
+
                         <svg
-                            class="text-2xl hover:text-white"
-                            xmlns="http://www.w3.org/2000/svg"
+                            class="hover:text-white"
                             width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
+                            height="12"
+                            viewBox="0 0 24 12"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
                         >
                             <path
+                                d="M23.1314 5.9883L17.5098 0.465332L22.3057 5.9883L17.5098 11.5112L23.1314 5.9883Z"
                                 fill="currentColor"
-                                fill-rule="evenodd"
-                                d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06"
-                                clip-rule="evenodd"
+                                stroke="currentColor"
+                                stroke-width="1.11482"
+                            />
+                            <path
+                                d="M0.0601807 5.98877L22.6677 5.98877"
+                                stroke="currentColor"
+                                stroke-width="1.11482"
                             />
                         </svg>
                     </x-stroke-button>
                 </div>
             </x-two-third-column-content>
         </div>
-        <div class="mb-6 flex flex-col-reverse overflow-hidden rounded-lg bg-white shadow-sm md:mb-[60px] lg:flex-row">
-            <x-two-third-column-content class="">
-                <div
-                    class="relative flex flex-col justify-center px-[25px] py-[30px] md:px-[30px] lg:px-[100px] lg:py-[80px]">
-                    <h2 class="mb-[15px] text-[22px] font-medium leading-[26px] md:text-[34px] md:leading-[44px]">
+        <div class="mb-6 flex flex-col-reverse overflow-hidden rounded-xl bg-white lg:mb-[60px] lg:flex-row">
+            <x-two-third-column-content class="py-[30px] md:py-20">
+                <div class="relative mb-[50px] flex flex-col justify-center px-[25px] md:mb-[30px] md:px-[100px]">
+                    <h2
+                        class="mb-[10px] text-[22px] font-medium leading-[30px] -tracking-[0.6px] md:text-[34px] md:leading-[44px]">
                         Success Stories
 
                     </h2>
@@ -196,28 +208,34 @@
                         with the Private Sector
 
                     </h4>
-                    <p class="mb-[15px] leading-[27px]">The Success Stories section showcases a selection of companies
+                    <p class="leading-[27px]">The Success Stories section showcases a selection of companies
                         that have achieved remarkable success through strategic partnerships with PIF and its portfolio
                         companies. These stories provide a glimpse into how strategic partnerships can unlock remarkable
                         growth and success in a variety of fields for the private sector companies.
 
                     </p>
                     <x-stroke-button
-                        class="relative justify-end md:absolute md:bottom-8 md:right-[35px]"
+                        class="absolute -bottom-14 right-[35px] min-h-[88px] text-2xl md:-bottom-24 2xl:-bottom-[146px]"
                         href="#"
                     >
                         <svg
-                            class="text-2xl hover:text-white"
-                            xmlns="http://www.w3.org/2000/svg"
+                            class="hover:text-white"
                             width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
+                            height="12"
+                            viewBox="0 0 24 12"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
                         >
                             <path
+                                d="M23.1314 5.9883L17.5098 0.465332L22.3057 5.9883L17.5098 11.5112L23.1314 5.9883Z"
                                 fill="currentColor"
-                                fill-rule="evenodd"
-                                d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06"
-                                clip-rule="evenodd"
+                                stroke="currentColor"
+                                stroke-width="1.11482"
+                            />
+                            <path
+                                d="M0.0601807 5.98877L22.6677 5.98877"
+                                stroke="currentColor"
+                                stroke-width="1.11482"
                             />
                         </svg>
                     </x-stroke-button>
@@ -231,9 +249,8 @@
                     alt="The Public Investment Fund provides private sector investment opportunities to enhance the growth of the Saudi economy"
                 />
             </x-one-third-column-image>
-
         </div>
-        <div class="mb-6 flex flex-col overflow-hidden rounded-lg bg-white shadow-sm md:mb-[60px] lg:flex-row">
+        <div class="mb-6 flex flex-col overflow-hidden rounded-xl bg-white md:mb-[50px] lg:flex-row">
             <x-one-third-column-image class="">
                 <img
                     class="w-full object-cover md:h-full"
@@ -241,71 +258,82 @@
                     alt="Join MUSAHAMA Platform to become a supplier to PIF Portfolio Companies"
                 />
             </x-one-third-column-image>
-            <x-two-third-column-content class="p-0">
-                <div
-                    class="relative flex flex-col justify-center px-[25px] py-[30px] md:px-[30px] lg:px-[100px] lg:py-[80px]">
-                    <h2 class="mb-[15px] text-[22px] font-medium leading-[26px] md:text-[34px] md:leading-[44px]">
+            <x-two-third-column-content class="py-[30px] md:py-20">
+                <div class="relative mb-[50px] flex flex-col justify-center px-[25px] md:mb-[30px] md:px-[100px]">
+                    <h2 class="mb-[15px] text-[22px] font-medium -tracking-[0.6px] md:text-[34px] md:leading-[44px]">
                         Leadership Vision
                     </h2>
-                    <p class="mb-[15px] leading-[27px]">As a catalyst of Vision 2030, PIF is driving the transformation
+                    <p class="leading-[27px]">As a catalyst of Vision 2030, PIF is driving the transformation
                         of Saudi Arabia's economy by developing strategic sectors and solutions for the future. The Fund
                         is spurring growth for the private sector to spearhead a sustainable national economy and help
                         grow the global economy.
 
                     </p>
                     <x-stroke-button
-                        class="relative justify-end md:absolute md:bottom-0 md:right-[35px]"
+                        class="relative -bottom-14 right-3 justify-end md:absolute md:bottom-[35px] md:right-[35px]"
                         href="#"
                     >
                         <svg
-                            class="text-2xl hover:text-white"
-                            xmlns="http://www.w3.org/2000/svg"
+                            class="hover:text-white"
                             width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
+                            height="12"
+                            viewBox="0 0 24 12"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
                         >
                             <path
+                                d="M23.1314 5.9883L17.5098 0.465332L22.3057 5.9883L17.5098 11.5112L23.1314 5.9883Z"
                                 fill="currentColor"
-                                fill-rule="evenodd"
-                                d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06"
-                                clip-rule="evenodd"
+                                stroke="currentColor"
+                                stroke-width="1.11482"
+                            />
+                            <path
+                                d="M0.0601807 5.98877L22.6677 5.98877"
+                                stroke="currentColor"
+                                stroke-width="1.11482"
                             />
                         </svg>
                     </x-stroke-button>
                 </div>
             </x-two-third-column-content>
         </div>
-        <div class="mb-6 flex flex-col-reverse overflow-hidden rounded-lg bg-white shadow-sm md:mb-[60px] lg:flex-row">
-            <x-two-third-column-content class="pb-5">
-                <div
-                    class="relative flex flex-col justify-center px-[25px] py-[30px] md:px-[30px] lg:px-[100px] lg:py-[80px]">
-                    <h2 class="mb-[15px] text-[22px] font-medium leading-[44px] md:text-[34px]">FAQs
+        <div class="mb-14 flex flex-col-reverse overflow-hidden rounded-xl bg-white md:mb-6 lg:mb-[50px] lg:flex-row">
+            <x-two-third-column-content class="relative py-[30px] md:py-20">
+                <div class="mb-[30px] flex flex-col justify-center px-[30px] md:px-[100px]">
+                    <h2 class="mb-[15px] text-[22px] font-medium -tracking-[0.6px] md:text-[34px] md:leading-[44px]">
+                        FAQs
                     </h2>
                     <h4 class="mb-[15px] text-[18px] font-medium leading-[26px] md:text-2xl md:leading-[34px]">Finding
                         answers to frequently
                         asked
                         questions related to the Private Sector Hub</h4>
 
-                    <p class="mb-[15px] leading-[27px]">The FAQs section provides informative answers to common
+                    <p class="leading-[27px]">The FAQs section provides informative answers to common
                         questions, helping users navigate the Private Sector Hub effectively. This curated list of
                         frequently asked questions assists users in understanding our processes, ensuring a smooth and
                         informative experience on the platform.</p>
                     <x-stroke-button
-                        class="relative justify-end md:absolute md:bottom-5 md:right-[35px]"
+                        class="relative -bottom-5 right-3 justify-end md:absolute md:bottom-[35px] md:right-[35px]"
                         href="#"
                     >
                         <svg
-                            class="text-2xl hover:text-white"
-                            xmlns="http://www.w3.org/2000/svg"
+                            class="hover:text-white"
                             width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
+                            height="12"
+                            viewBox="0 0 24 12"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
                         >
                             <path
+                                d="M23.1314 5.9883L17.5098 0.465332L22.3057 5.9883L17.5098 11.5112L23.1314 5.9883Z"
                                 fill="currentColor"
-                                fill-rule="evenodd"
-                                d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06"
-                                clip-rule="evenodd"
+                                stroke="currentColor"
+                                stroke-width="1.11482"
+                            />
+                            <path
+                                d="M0.0601807 5.98877L22.6677 5.98877"
+                                stroke="currentColor"
+                                stroke-width="1.11482"
                             />
                         </svg>
                     </x-stroke-button>
@@ -323,39 +351,46 @@
             <div>
                 <h2 class="mb-[40px] text-[26px] font-medium md:text-field-title">Continue Browsing</h2>
             </div>
-            <div class="mb-[40px] flex flex-col justify-between gap-4 gap-x-0 md:flex-row md:gap-x-10 md:gap-y-10">
+            <div class="mb-[50px] flex flex-col justify-between gap-4 gap-x-0 md:flex-row md:gap-x-10 md:gap-y-10">
                 <x-half-column-content class="">
                     <a
-                        class="relative h-64 bg-cover bg-center"
+                        class="flex items-end justify-start bg-cover bg-center"
                         href="#"
                     >
-                        <div class="">
+                        <div class="relative">
                             <img
-                                class="h-[210px] w-full rounded-2xl object-cover md:px-[8px]"
+                                class="h-[210px] w-full rounded-xl object-cover md:px-[8px]"
                                 src="{{ Vite::image('our-programs-for-psh.png') }}"
                                 alt="Our Program"
                             />
                         </div>
                         <div
-                            class="absolute bottom-[15px] left-[25px] right-[25px] flex flex-row items-center justify-center gap-4 text-white md:bottom-[20px]">
-                            <h4 class="mb-[15px] text-[18px] font-medium leading-[26px] md:text-2xl md:leading-[34px]">
+                            class="absolute flex items-center justify-center gap-x-[15px] pb-5 pl-[25px] pr-14 md:absolute md:px-[25px]">
+                            <h4
+                                class="text-[18px] font-medium leading-[26px] text-white md:text-2xl md:leading-[34px]">
                                 Our Programs
                                 For The Private
                                 Sector</h4>
                             <div
-                                class="flex min-h-[27px] min-w-[50px] items-center justify-center rounded-full border">
+                                class="flex items-center justify-center rounded-full border px-3 py-[6.5px] hover:border-primary hover:bg-primary">
                                 <svg
-                                    class="text-2xl text-white"
-                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="text-white"
                                     width="24"
-                                    height="24"
-                                    viewBox="0 0 24 24"
+                                    height="12"
+                                    viewBox="0 0 24 12"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
                                 >
                                     <path
+                                        d="M23.1314 5.9883L17.5098 0.465332L22.3057 5.9883L17.5098 11.5112L23.1314 5.9883Z"
                                         fill="currentColor"
-                                        fill-rule="evenodd"
-                                        d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06"
-                                        clip-rule="evenodd"
+                                        stroke="currentColor"
+                                        stroke-width="1.11482"
+                                    />
+                                    <path
+                                        d="M0.0601807 5.98877L22.6677 5.98877"
+                                        stroke="currentColor"
+                                        stroke-width="1.11482"
                                     />
                                 </svg>
                             </div>
@@ -364,35 +399,40 @@
                 </x-half-column-content>
                 <x-half-column-content class="">
                     <a
-                        class="relative h-64 bg-cover bg-center"
+                        class="flex items-end justify-start bg-cover bg-center"
                         href="#"
                     >
-                        <div class="">
+                        <div class="relative">
                             <img
-                                class="h-[210px] w-full rounded-2xl object-cover md:px-[8px]"
+                                class="h-[210px] w-full rounded-xl object-cover md:px-[8px]"
                                 src="{{ Vite::image('our-portfolio-continue.png') }}"
-                                alt="Our Portfolio"
+                                alt="Our Program"
                             />
                         </div>
-                        <div
-                            class="absolute bottom-[15px] left-[25px] flex flex-row items-center justify-center gap-4 text-white md:bottom-[20px]">
-                            <h4 class="mb-[15px] text-[18px] font-medium leading-[26px] md:text-2xl md:leading-[34px]">
-                                Our Portfolio
-                            </h4>
+                        <div class="absolute flex items-center justify-center gap-x-[15px] px-[25px] pb-5">
+                            <h4
+                                class="text-[18px] font-medium leading-[26px] text-white md:text-2xl md:leading-[34px]">
+                                Our Portfolio</h4>
                             <div
-                                class="flex min-h-[27px] min-w-[50px] items-center justify-center rounded-full border">
+                                class="flex items-center justify-center rounded-full border px-3 py-[6.5px] hover:border-primary hover:bg-primary">
                                 <svg
-                                    class="text-2xl text-white"
-                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="text-white"
                                     width="24"
-                                    height="24"
-                                    viewBox="0 0 24 24"
+                                    height="12"
+                                    viewBox="0 0 24 12"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
                                 >
                                     <path
+                                        d="M23.1314 5.9883L17.5098 0.465332L22.3057 5.9883L17.5098 11.5112L23.1314 5.9883Z"
                                         fill="currentColor"
-                                        fill-rule="evenodd"
-                                        d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06"
-                                        clip-rule="evenodd"
+                                        stroke="currentColor"
+                                        stroke-width="1.11482"
+                                    />
+                                    <path
+                                        d="M0.0601807 5.98877L22.6677 5.98877"
+                                        stroke="currentColor"
+                                        stroke-width="1.11482"
                                     />
                                 </svg>
                             </div>
